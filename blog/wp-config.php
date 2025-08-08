@@ -26,8 +26,8 @@ define( 'DB_NAME', 'nectorflare_blog' );
 define( 'DB_USER', 'root' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'Dhee@321' );
-
+// define( 'DB_PASSWORD', 'Dhee@321' );
+define( 'DB_PASSWORD', '' );
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
 
@@ -56,13 +56,15 @@ define( 'AUTH_SALT',        'L: *eFM=7(Alq|c0f)?)Ym3i*!^?S0JYwgt)1?3C.5-t2  5;US
 define( 'SECURE_AUTH_SALT', 'F2He@=r@iGi0Z;iw$=.;.c]heqm3j={`B@%,(]j,Of][FyI7DD,mlwpe?{lB8W4&' );
 define( 'LOGGED_IN_SALT',   'O&HzAO^5YpuC#Gn7bU!;47BA7+TFX%Qvuf}x/sc8. sX*:(8?y$OXG/);:}xNgLC' );
 define( 'NONCE_SALT',       'uO`ZDmtfqM.}aL, X}6#%cbZ|qM}pfSu%v}rR&-sS38Hp7RN>|XzgyhY}Jj1~x@.' );
+define('FS_METHOD', 'direct');
+define('WP_MEMORY_LIMIT', '256M');
 
 /**#@-*/
 
 /**
  * WordPress database table prefix.
  *
- * You can have multiple installations in one database if you give each
+ * You can have multiple installations in one dat	abase if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  *
  * At the installation time, database tables are created with the specified prefix.
@@ -72,6 +74,7 @@ define( 'NONCE_SALT',       'uO`ZDmtfqM.}aL, X}6#%cbZ|qM}pfSu%v}rR&-sS38Hp7RN>|X
  * @link https://developer.wordpress.org/advanced-administration/wordpress/wp-config/#table-prefix
  */
 $table_prefix = 'wp_';
+
 
 /**
  * For developers: WordPress debugging mode.
