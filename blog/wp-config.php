@@ -26,8 +26,8 @@ define( 'DB_NAME', 'nectorflare_blog' );
 define( 'DB_USER', 'root' );
 
 /** Database password */
-// define( 'DB_PASSWORD', 'Dhee@321' );
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', 'Dhee@321' );
+
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
 
@@ -36,6 +36,8 @@ define( 'DB_CHARSET', 'utf8mb4' );
 
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
+define('FS_METHOD', 'direct');
+
 
 /**#@+
  * Authentication unique keys and salts.
@@ -48,23 +50,21 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         '<cJ]I9jbB;[8!QtuJCSFO8?RBAd=F*dpR=u:D )#h[#eYwbx@9DNS:rAeBtSK)?u' );
-define( 'SECURE_AUTH_KEY',  'Iwivb&@2HyV,4O.s_D^4P+l{}O9U3RXIrY2a=AAN=hs?CJs[ m7xatq(JA$tb>;1' );
-define( 'LOGGED_IN_KEY',    'c,x3Ea= LkI(_nI!fNUy%o;N]S$d4!k8mX~j$L~@x(J~EEhWpz8lw(1 L*Rlj-jW' );
-define( 'NONCE_KEY',        '@H^.FM26NB:iP@5.P6{9TtH`8PQD%r[`)$T.]d|hQM^|1bw}U?2MgJ#+Hhk]<5FB' );
-define( 'AUTH_SALT',        'L: *eFM=7(Alq|c0f)?)Ym3i*!^?S0JYwgt)1?3C.5-t2  5;USJB|J;$h/ULhs0' );
-define( 'SECURE_AUTH_SALT', 'F2He@=r@iGi0Z;iw$=.;.c]heqm3j={`B@%,(]j,Of][FyI7DD,mlwpe?{lB8W4&' );
-define( 'LOGGED_IN_SALT',   'O&HzAO^5YpuC#Gn7bU!;47BA7+TFX%Qvuf}x/sc8. sX*:(8?y$OXG/);:}xNgLC' );
-define( 'NONCE_SALT',       'uO`ZDmtfqM.}aL, X}6#%cbZ|qM}pfSu%v}rR&-sS38Hp7RN>|XzgyhY}Jj1~x@.' );
-define('FS_METHOD', 'direct');
-define('WP_MEMORY_LIMIT', '256M');
+define( 'AUTH_KEY',         '$82n[hfqck%B%Lg$ycsbZD.[<,JQ}3n*Ev%QE2&E{VMIQmVv{6:b:/Nm)gO?YU;{' );
+define( 'SECURE_AUTH_KEY',  'WElz ~,3IKK}jW!PJ6+k+zcyc,iee)(=N8NHGI+p#qQUa9 J`oCeW,Stp<djX/Z+' );
+define( 'LOGGED_IN_KEY',    'wwA4b2ZY`G!EFXdSKf%c33;g: uZ}:AnH3Q8XPDTa|CqCR&5dvX}L-RQ~sN[ArVU' );
+define( 'NONCE_KEY',        'cT3 :Aoi~/5EqPyU7yvd7+F+?QPVCz&E>.dK[ec.X!NEuB`7P0li~=o`Gg_5pCMp' );
+define( 'AUTH_SALT',        '@Hzr;5SS}McV}et#46^w`9G;+k]*7~d~?LTbZ|2ca>D<FRR_:-{Aa0jCw Y4wfWj' );
+define( 'SECURE_AUTH_SALT', ',`a{8L=$^7zK<>F`Sh _y>;.KT9YS|iBhu_Zb0ucRS3uWmr]vyw7>Xu4JW,dL?@!' );
+define( 'LOGGED_IN_SALT',   'bE/Gi6oLF%aa6=m(sa(TP]4p3pV+<NAS5wn;/{(xSI|QDWIfcE!j(m8(LI{a)edP' );
+define( 'NONCE_SALT',       '$^8IXw9&6+R6ZQI:c+B 16.U0,|ka}&zTw!BSO,yRoGQ)M86wTI>-}n-rvW!gn)-' );
 
 /**#@-*/
 
 /**
  * WordPress database table prefix.
  *
- * You can have multiple installations in one dat	abase if you give each
+ * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  *
  * At the installation time, database tables are created with the specified prefix.
@@ -74,7 +74,6 @@ define('WP_MEMORY_LIMIT', '256M');
  * @link https://developer.wordpress.org/advanced-administration/wordpress/wp-config/#table-prefix
  */
 $table_prefix = 'wp_';
-
 
 /**
  * For developers: WordPress debugging mode.
