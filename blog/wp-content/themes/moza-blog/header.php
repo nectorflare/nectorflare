@@ -14,7 +14,10 @@
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
+	  <link rel="stylesheet" href="https://nectorflare.com/style.css">
 
 	<?php wp_head(); ?>
 </head>
@@ -29,46 +32,24 @@
 ?>
 <div id="page" class="site">
 <a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'moza-blog' ); ?></a>
-	<header id="masthead" class="header-area <?php if(has_header_image() && is_front_page()): ?>moza-header-img<?php endif; ?>">
-		<?php if(has_header_image() && is_front_page()): ?>
-	        <div class="header-img"> 
-	        	<?php the_header_image_tag(); ?>
-	        </div>
-        <?php endif; ?>
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-4">
-					<div class="site-branding text-left test1">
-						<?php
-						the_custom_logo();
-						if ( is_front_page() && is_home() ) :
-							?>
-							<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-							<?php
-						else :
-							?>
-							<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-							<?php
-						endif;
-						$moza_description = get_bloginfo( 'description', 'display' );
-						if ( $moza_description || is_customize_preview() ) :
-							?>
-							<p class="site-description"><?php echo esc_html($moza_description); ?></p>
-						<?php endif; ?>
-					</div>
-				</div>
-				<div class="col-lg-8">
-					<div class="moza-responsive-menu"></div>
-					<button class="screen-reader-text menu-close"><?php esc_html_e( 'Close Menu', 'moza-blog' ); ?></button>
-					<div class="mainmenu">
-						<?php
-							wp_nav_menu( array(
-								'theme_location' => 'menu-1',
-								'menu_id'        => 'primary-menu',
-							) );
-						?>
-					</div>
-				</div>
-			</div>
-		</div>
-	</header><!-- #masthead -->
+
+<nav class="navbar navbar-expand-lg bg-white shadow-sm py-2 fixed-top">
+  <div class="container d-flex align-items-center justify-content-between">
+    <a href="../" class="d-flex align-items-center">
+      <img src="../images/logo.png" alt="Nector Flare Logo" style="height:50px;">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav align-items-center">
+        <li class="nav-item ms-2"><a class="nav-link header" href="../">Home</a></li>
+        <li class="nav-item"><a class="nav-link header" href="../about-us/">About</a></li>
+        <li class="nav-item"><a class="nav-link header" href="../services/">Services</a></li>
+        <li class="nav-item"><a class="nav-link header" href="../portfolio/">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link header" href="../blog/">Blog</a></li>
+        <li class="nav-item"><a class="nav-link header" href="../contact-us/">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
