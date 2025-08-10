@@ -57,3 +57,15 @@ a.nav-link.header {
 a.nav-link.header:hover {
    border-bottom: 3px solid #ffc107;
 }
+
+
+.list-unstyled i.fa-solid.fa-greater-than {
+    font-size: 10px;
+    color: #ffc107;
+}
+.col-md-4.mb-3 p i {
+    color: #ffc107;
+}
+.social_media_icon i:hover {
+color: #ffc107;
+}
