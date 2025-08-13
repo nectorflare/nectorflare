@@ -553,3 +553,7 @@ a.nav-link.header:hover {
 .social_media_icon i:hover {
 color: #ffc107;
 }
+
+.wp-theme-moza p {
+    color: white !important;
+}
