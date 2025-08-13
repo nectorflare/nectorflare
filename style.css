@@ -557,3 +557,18 @@ color: #ffc107;
 .wp-theme-moza p {
     color: white !important;
 }
+section#block-4 {
+    display: none !important;
+}
+
+
+
+footer.text-white.bg-primary.py-5.blog_footer ul li a {
+    text-decoration: none !important;
+    color: inherit !important;
+}
+
+footer.text-white.bg-primary.py-5.blog_footer ul li a::hover {
+    text-decoration: none !important;
+    color: inherit !important;
+}
