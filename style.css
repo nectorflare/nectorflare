@@ -574,6 +574,6 @@ footer.text-white.bg-primary.py-5.blog_footer ul li a::hover {
 }
 
 
-.wp-child-theme-moza-blog .wp-theme-moza p {
-    color: black;
+.wp-child-theme-moza-blog p {
+    color: black !important;
 }
