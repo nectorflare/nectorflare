@@ -18,7 +18,7 @@
   <div class="container">
     <div class="row text-md-start text-center">
       <div class="col-md-4 mb-3">
-         <a href ="https://nectorflare.com/"><img src="../images/logo.png" alt="Nector Flare Logo" height="25%" width="60%"></a>
+         <a href ="https://nectorflare.com/"><img src="https://nectorflare.com/images/logo.png" alt="Nector Flare Logo" height="25%" width="60%"></a>
         <p>Nectorflare is a creative digital solutions company passionate about blending innovation with design. We help brands shine brighter through impactful web development, engaging user experiences, and smart digital strategies — turning ideas into reality with style and precision.</p>
         <div class="social_media_icon">
         <a href ="https://www.instagram.com/nectorflare/"><i class="fa-brands fa-instagram"></i></a>
