@@ -31,22 +31,22 @@
       <div class="col-md-2 mb-3">
         <h6>Quick Links</h6>
         <ul class="list-unstyled">
-          <a href ="faq/"><li><i class="fa-solid fa-greater-than"></i> FAQ</li></a>
-          <a href ="about-us/"><li><i class="fa-solid fa-greater-than"></i> About Us</li></a>
-          <a href ="contact-us/"><li><i class="fa-solid fa-greater-than"></i> Contact Us</li></a>
-          <a href ="blog/"><li><i class="fa-solid fa-greater-than"></i> Blog</li></a>
-          <a href ="services/"><li><i class="fa-solid fa-greater-than"></i> Services</li></a>
+          <a href ="https://nectorflare.com/faq/"><li><i class="fa-solid fa-greater-than"></i> FAQ</li></a>
+          <a href ="https://nectorflare.com/about-us/"><li><i class="fa-solid fa-greater-than"></i> About Us</li></a>
+          <a href ="https://nectorflare.com/contact-us/"><li><i class="fa-solid fa-greater-than"></i> Contact Us</li></a>
+          <a href ="https://nectorflare.com/blog/"><li><i class="fa-solid fa-greater-than"></i> Blog</li></a>
+          <a href ="https://nectorflare.com/services/"><li><i class="fa-solid fa-greater-than"></i> Services</li></a>
         </ul>
       </div>
       <div class="col-md-2 mb-3">
         <h6>Services</h6>
         <ul class="list-unstyled">
-          <a href ="web_development/"><li><i class="fa-solid fa-greater-than"></i> Web Development</li></a>
-          <a href ="app_development/"><li><i class="fa-solid fa-greater-than"></i> App Development</li></a>
-          <a href ="ui_ux_desigining/"><li><i class="fa-solid fa-greater-than"></i> UI/UX Desigining</li></a>
-          <a href ="digital_marketing/"><li><i class="fa-solid fa-greater-than"></i> Digital Marketing</li></a>
-          <a href ="software_development/"><li><i class="fa-solid fa-greater-than"></i> Software Development</li></a>
-          <a href ="eCommerce_development/"><li><i class="fa-solid fa-greater-than"></i> E-Commerce Devlopment</li></a>
+          <a href ="https://nectorflare.com/web_development/"><li><i class="fa-solid fa-greater-than"></i> Web Development</li></a>
+          <a href ="https://nectorflare.com/app_development/"><li><i class="fa-solid fa-greater-than"></i> App Development</li></a>
+          <a href ="https://nectorflare.com/ui_ux_desigining/"><li><i class="fa-solid fa-greater-than"></i> UI/UX Desigining</li></a>
+          <a href ="https://nectorflare.com/digital_marketing/"><li><i class="fa-solid fa-greater-than"></i> Digital Marketing</li></a>
+          <a href ="https://nectorflare.com/software_development/"><li><i class="fa-solid fa-greater-than"></i> Software Development</li></a>
+          <a href ="https://nectorflare.com/eCommerce_development/"><li><i class="fa-solid fa-greater-than"></i> E-Commerce Devlopment</li></a>
 
         </ul>
       </div>

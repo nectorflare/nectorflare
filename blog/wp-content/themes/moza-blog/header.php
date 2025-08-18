@@ -35,20 +35,20 @@
 
 <nav class="navbar navbar-expand-lg bg-white shadow-sm py-2 fixed-top">
   <div class="container d-flex align-items-center justify-content-between">
-    <a href="../" class="d-flex align-items-center">
-      <img src="../images/logo.png" alt="Nector Flare Logo" style="height:50px;">
+    <a href="https://nectorflare.com/" class="d-flex align-items-center">
+      <img src="https://nectorflare.com/images/logo.png" alt="Nector Flare Logo" style="height:50px;">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
       <ul class="navbar-nav align-items-center">
-        <li class="nav-item ms-2"><a class="nav-link header" href="../">Home</a></li>
-        <li class="nav-item"><a class="nav-link header" href="../about-us/">About</a></li>
-        <li class="nav-item"><a class="nav-link header" href="../services/">Services</a></li>
-        <li class="nav-item"><a class="nav-link header" href="../portfolio/">Portfolio</a></li>
-        <li class="nav-item"><a class="nav-link header" href="../blog/">Blog</a></li>
-        <li class="nav-item"><a class="nav-link header" href="../contact-us/">Contact</a></li>
+        <li class="nav-item ms-2"><a class="nav-link header" href="https://nectorflare.com/">Home</a></li>
+        <li class="nav-item"><a class="nav-link header" href="https://nectorflare.com/about-us/">About</a></li>
+        <li class="nav-item"><a class="nav-link header" href="https://nectorflare.com/services/">Services</a></li>
+        <li class="nav-item"><a class="nav-link header" href="https://nectorflare.com/portfolio/">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link header" href="https://nectorflare.com/blog/">Blog</a></li>
+        <li class="nav-item"><a class="nav-link header" href="https://nectorflare.com/contact-us/">Contact</a></li>
       </ul>
     </div>
   </div>
