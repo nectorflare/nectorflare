@@ -38,26 +38,91 @@
 .hero-section .content {
   z-index: 1;
 }
+/* Abot us page start */
 
-footer {
-  background: linear-gradient(135deg, #007bff, #00aaff);
+body {
+      font-family: Arial, sans-serif;
+      /* background-color: #f8f9fa; */
+    }
+    .section-title {
+      font-weight: bold;
+      color: #1d3e8a;
+    }
+    .service-card {
+      background: #fff;
+      border-radius: 8px;
+      padding: 25px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: all 0.3s ease-in-out;
+      height: 100%;
+    }
+    .service-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+    }
+    .highlight-card {
+      background: linear-gradient(135deg, #0056d2, #0d6efd);
+      color: #fff;
+    }
+.service-heading {
+      color: #1d3e8a;
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+    .service-text {
+      color: #333;
+      margin-bottom: 30px;
+    }
+    .service-section {
+      padding: 60px 0;
+    }
+    .service-img {
+      border-radius: 8px;
+      max-width: 100%;
+      height: auto;
+    }
+.section-title {
+      color: #1d3e8a;
+      font-weight: bold;
+    }
+    .sub-title {
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+    .choose-section {
+      padding: 60px 0;
+    }
+    .info-box {
+      background: #f8f9fa;
+      border-radius: 8px;
+      padding: 20px;
+      min-height: 200px;
+      text-align: left !important;
+    }
+    .icon-box {
+      text-align: center;
+      padding: 20px;
+    }
+    .icon-box img {
+      width: 60px;
+      margin-bottom: 10px;
+    }
+    .icon-box h6 {
+      font-weight: bold;
+      color: #1d3e8a;
+    }
+    .team-img {
+      border-radius: 12px;
+      max-width: 100%;
+    }
+    .service-card h5 {
+      font-weight: 550;
 }
-
+/* Abot us page end*/
 footer h6, footer h5 {
   font-weight: 600;
 }
-
-body {
-      font-family: 'Segoe UI', sans-serif;
-      line-height: 1.6;
-    }
-    .section-title {
-      color: #0d6efd;
-      font-weight: 600;
-      margin-top: 40px;
-    }
     ul {
-      list-style-type: "🔹 ";
       padding-left: 20px;
     }
     .service-icon {
