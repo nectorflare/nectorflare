@@ -532,6 +532,8 @@ ul.list-unstyled a li {
 
 footer {
   background: linear-gradient(to right, #00a8ff, #0046ad);
+  /* background-image: url(images/footer\ 2\ .jpg);
+  background-size: cover !important; */
 }
 
 a.nav-link.header {

@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nectorflare</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W792LMSDWP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W792LMSDWP');
+</script>
+<body>
+<nav class="navbar navbar-expand-lg bg-white shadow-sm py-2 fixed-top">
+  <div class="container d-flex align-items-center justify-content-between">
+    <a href="https://nectorflare.com/" class="d-flex align-items-center">
+      <img src="https://nectorflare.com/images/logo.png" alt="Nector Flare Logo" style="height:50px;">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav align-items-center">
+        <li class="nav-item ms-2"><a class="nav-link header" href="https://nectorflare.com/">Home</a></li>
+        <li class="nav-item"><a class="nav-link header" href="https://nectorflare.com/about-us/">About</a></li>
+        <li class="nav-item"><a class="nav-link header" href="https://nectorflare.com/services/">Services</a></li>
+        <li class="nav-item"><a class="nav-link header" href="https://nectorflare.com/portfolio/">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link header" href="https://nectorflare.com/blog/">Blog</a></li>
+        <li class="nav-item"><a class="nav-link header" href="https://nectorflare.com/contact-us/">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Home page Banner video start -->
+  <video autoplay muted loop width="100%">
+  <source src="images/home_page_banner_video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+<!-- Home Page Banner video end   -->
+
+<!-- Home Page Card start -->
+<div class="container-fluid cards-section">
+  <div class="row g-4">
+    <!-- Card 1 -->
+    <div class="col-md-6 col-lg-3">
+      <a href="web_development/"><div class="card service-card text-center p-4">
+        <img src="https://img.icons8.com/fluency/96/code.png" alt="Web Dev" class="service-icon mx-auto">
+        <h5 class="card-title">Web Development</h5>
+        <p class="card-text">Design and develop responsive, SEO-friendly websites that effectively represent your brand and engage your audience.</p>
+      </div></a>
+    </div>
+    <!-- Card 2 -->
+    <div class="col-md-6 col-lg-3">
+      <a href="app_development/"><div class="card service-card text-center p-4">
+        <img src="https://img.icons8.com/fluency/96/development-skill.png" alt="App Dev" class="service-icon mx-auto">
+        <h5 class="card-title">App Development</h5>
+        <p class="card-text">Develop robust, user-friendly mobile apps for iOS and Android platforms that meet your business needs.</p>
+      </div></a>
+    </div>
+    <!-- Card 3 -->
+    <div class="col-md-6 col-lg-3">
+      <a href="ui_ux_desigining/"><div class="card service-card text-center p-4">
+        <img src="https://img.icons8.com/fluency/96/design.png" alt="UI UX" class="service-icon mx-auto">
+        <h5 class="card-title">UI/UX Designing</h5>
+        <p class="card-text">Harness the power of AI to innovate and automate processes, driving efficiency and intelligent decision-making.</p>
+      </div></a>
+    </div>
+    <!-- Card 4 -->
+    <div class="col-md-6 col-lg-3">
+      <a href="eCommerce_development/"><div class="card service-card text-center p-4">
+        <img src="https://img.icons8.com/fluency/96/artificial-intelligence.png" alt="AI Services" class="service-icon mx-auto">
+        <h5 class="card-title">E-Commerce Devlopment</h5>
+        <p class="card-text">Scalable eCommerce Development for Online Shopping and Product Sales.</p>
+      </div>
+    </div>
+  </div></a>
+</div>
+<!-- Home Page Card end  -->
+
+<!-- About Us Section Start  -->
+ <section class="about-section">
+  <div class="container">
+    <div class="row align-items-center">
+      
+      <!-- Left Text Content -->
+      <div class="col-md-6">
+        <h3 class="about-title">About Us</h3>
+          <p><b>NectorFlare Pvt Ltd </b>builds smart technology solutions for businesses of all sizes. The team delivers high-quality services to make your brand stronger and your work easier.</p>
+<p>NectorFlare specializes in <b>web development</b> that is secure, fast, and easy to manage. Every <b>web developer</b> here focuses on clean code and practical features.</p>
+<p>Website solutions include <b>website design</b> that looks great and works well across all devices. We build every website to fit your business needs.</p>
+<p>Mobile apps for <b>Android and iOS</b> are smooth, responsive, and performance-driven.</p>
+<p>Business tools like <b>web portals</b> and <b>custom software</b> help improve workflow and automate tasks.</p>
+<p>Online stores benefit from our powerful <b>eCommerce development</b> to attract more customers and increase sales.</p>
+<p><b>UI/UX designs </b> offer simple layouts and better user interaction. Our graphic design makes your brand look good</p>
+<p>Using <b>business intelligence and data analytics,</b> NectorFlare helps clients make smart and clear decisions.</p>
+<p>Services also include building better <b>digital experiences,</b> boosting visibility through <b>SEO</b> and <b>digital marketing,</b> and shaping brand identity with strong <b>branding strategies.</b></p>
+<p><b>IT strategy and product consulting </b>guide your growth and help future-proof your technology.</p>
+        <a href="about-us/" class="btn btn-primary">Explore more</a>
+      </div>
+
+      <!-- Right Image Content -->
+      <div class="col-md-6 about-image-wrapper text-center">
+        <!-- Replace the src with your local or online path -->
+        <!-- <img src="images/Circule.png" alt="Circle Graphic" class="img-fluid circle-bg"> -->
+         <video autoplay muted loop width="100%">
+          <source src="images/about_us_video.mp4" type="video/mp4">
+         </video>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- About Us Section End  -->
+<!-- Stip Section Start  -->
+ <section class="cta-section">
+  <div class="container">
+    <h4 class="mb-4">Explore more with NectorFlare – innovation meets limitless digital possibilities.</h4>
+    <a href="services/" class="btn btn-primary">Explore more</a>
+  </div>
+</section>
+<!-- Strip Section End  -->
+
+    <!-- Flip Slider Start -->
+    <div class="container text-center pt-md-3">
+        <h2>Services</h2>
+        <p>Boosting online presence with SEO, branding, and digital strategy.</p>
+    </div>
+
+    <div class="carousel-container">
+        <div class="text-center">
+            <div class="card-slider-wrapper" id="cardSlider">
+                <!-- Cards -->
+                <div class="card-slider">
+                    <div class="icon">🎨</div>
+                    <h5><strong>Dynamic & Attractive Designs</strong></h5>
+                    <p>We create visually stunning and dynamic websites that grab attention and offer a rich user
+                        experience.</p>
+                </div>
+                <div class="card-slider">
+                    <div class="icon">🛠️</div>
+                    <h5><strong>Expert Assistance & Modern Tools</strong></h5>
+                    <p>Benefit from expert help and modern tools that enhance your project with reliability and
+                        precision.</p>
+                </div>
+                <div class="card-slider">
+                    <div class="icon">📞</div>
+                    <h5><strong>24/7 Hours Call Support</strong></h5>
+                    <p>Our support team is available around the clock to help with timely and effective technical
+                        solutions.</p>
+                </div>
+            </div>
+
+            <!-- Navigation Buttons -->
+            <div class="nav-buttons">
+                <button onclick="prevCard()">←</button>
+                <button onclick="nextCard()">→</button>
+            </div>
+        </div>
+    </div>
+    <!-- Flip Slider End -->
+<!-- Counter Start -->
+<section class="counter-wrap">
+        <div class="circle" data-target="232">
+            <svg>
+                <circle class="bg" cx="70" cy="70" r="50" />
+                <circle class="progress" cx="70" cy="70" r="50" />
+            </svg>
+            <div class="content">
+                <div class="number">0+</div>
+                Clients
+            </div>
+        </div>
+
+        <div class="circle" data-target="21">
+            <svg>
+                <circle class="bg" cx="70" cy="70" r="50" />
+                <circle class="progress" cx="70" cy="70" r="50" />
+            </svg>
+            <div class="content">
+                <div class="number">0+</div>
+                Projects
+            </div>
+        </div>
+
+        <div class="circle" data-target="1453">
+            <svg>
+                <circle class="bg" cx="70" cy="70" r="50" />
+                <circle class="progress" cx="70" cy="70" r="50" />
+            </svg>
+            <div class="content">
+                <div class="number">0+</div>
+                Hours
+            </div>
+        </div>
+
+        <div class="circle" data-target="35">
+            <svg>
+                <circle class="bg" cx="70" cy="70" r="50" />
+                <circle class="progress" cx="70" cy="70" r="50" />
+            </svg>
+            <div class="content">
+                <div class="number">0+</div>
+                Workers
+            </div>
+        </div>
+    </section>
+<!-- Counter End -->
+<!-- Portfoliyo Start -->
+<!-- <div class="container py-5">
+  <div class="text-center mb-4">
+    <h2><span style="color:#007bff">Portfolio</span></h2>
+    <p>We are a team of talented designers making websites</p>
+
+    <div class="d-flex justify-content-center gap-3">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="website">Website</button>
+      <button class="filter-btn" data-filter="mobile">Mobile App</button>
+      <button class="filter-btn" data-filter="work">Work</button>
+    </div>
+  </div>
+
+  <div class="row g-4">
+    <div class="col-md-4 portfolio-item website show">
+      <img src="your-image1.jpg" alt="Website" class="portfolio-img">
+    </div>
+    <div class="col-md-4 portfolio-item mobile show">
+      <img src="your-image2.jpg" alt="Mobile" class="portfolio-img">
+    </div>
+    <div class="col-md-4 portfolio-item work show">
+      <img src="your-image3.jpg" alt="Work" class="portfolio-img">
+    </div>
+    <div class="col-md-4 portfolio-item website show">
+      <img src="your-image4.jpg" alt="Website" class="portfolio-img">
+    </div>
+    <div class="col-md-4 portfolio-item mobile show">
+      <img src="your-image5.jpg" alt="Mobile App" class="portfolio-img">
+    </div>
+    <div class="col-md-4 portfolio-item work show">
+      <img src="your-image6.jpg" alt="Work" class="portfolio-img">
+    </div>
+  </div>
+</div> -->
+<!-- Potfoliyo End  -->
+<!-- Get a quote section start  -->
+<div class="container-fluid my-5">
+  <div class="cta-section d-flex justify-content-between align-items-center cta-flex flex-wrap">
+    
+    <div class="d-flex align-items-center">
+      <div class="cta-icon">
+        <i class="fa-solid fa-phone"></i>
+      </div>
+      <div>
+        <small>Call Us Now</small><br>
+        <strong>+91-9355006621</strong>
+      </div>
+    </div>
+
+    <div class="cta-divider"></div>
+
+    <div class="text-white fw-bold fs-5 text-center">
+      Stay Connected With<br> Cutting Edge IT
+    </div>
+
+    <button class="cta-button">
+     <a href="contact-us/"> Get A Quote <i class="fa-solid fa-arrow-right"></i></a>
+    </button>
+  </div>
+</div>
+
+<!-- Get a qoute section end  -->
+
+<!-- Testimonial Start -->
+<div class="container-fluid testimonial-section text-center">
+  <h2 class="testimonial-title">Testimonials</h2>
+  <p class="mb-5">We are team of talented designers making website</p>
+  
+  <div class="row">
+    <!-- Testimonial 1 -->
+    <div class="col-md-4 mb-4">
+      <div class="testimonial-card p-3">
+        <p>“NectorFlare’s dedication and creativity are unmatched. They understood our vision and delivered beyond expectations, making our brand shine online....”</p>
+        <div class="testimonial-name">Rahul Sharma</div>
+        <div class="testimonial-location">Delhi</div>
+        <div class="testimonial-stars">★★★★★</div>
+      </div>
+    </div>
+
+    <!-- Testimonial 2 -->
+    <div class="col-md-4 mb-4">
+      <div class="testimonial-card p-3">
+        <p>“The team at NectorFlare is highly professional and reliable. Their innovative approach helped us achieve impressive results in a short time....”</p>
+        <div class="testimonial-name">Sunita</div>
+        <div class="testimonial-location">Delhi</div>
+        <div class="testimonial-stars">★★★★★</div>
+      </div>
+    </div>
+
+    <!-- Testimonial 3 -->
+    <div class="col-md-4 mb-4">
+      <div class="testimonial-card p-3">
+        <p>“Choosing NectorFlare was the best decision for our business. They combine expertise, innovation, and customer care like no one else....”</p>
+        <div class="testimonial-name">Priyansh</div>
+        <div class="testimonial-location">Delhi</div>
+        <div class="testimonial-stars">★★★★★</div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Testimonail End  -->
+
+
+
+<!-- Porfoltio Script start -->
+<script>
+  const filterButtons = document.querySelectorAll(".filter-btn");
+  const portfolioItems = document.querySelectorAll(".portfolio-item");
+
+  filterButtons.forEach(button => {
+    button.addEventListener("click", () => {
+      // Remove active class from all
+      filterButtons.forEach(btn => btn.classList.remove("active"));
+      button.classList.add("active");
+
+      const filter = button.getAttribute("data-filter");
+
+      portfolioItems.forEach(item => {
+        item.classList.remove("show");
+        if (filter === "all" || item.classList.contains(filter)) {
+          item.classList.add("show");
+        }
+      });
+    });
+  });
+</script>
+    <!-- Flip Script Start -->
+    <script>
+        const wrapper = document.getElementById('cardSlider');
+
+        function updateClasses() {
+            const cards = wrapper.querySelectorAll('.card-slider');
+            cards.forEach((card, index) => {
+                card.classList.remove('card-left', 'card-center', 'card-right');
+
+                if (index === 0) {
+                    card.classList.add('card-left');
+                } else if (index === 1) {
+                    card.classList.add('card-center');
+                } else if (index === 2) {
+                    card.classList.add('card-right');
+                }
+            });
+        }
+
+        function nextCard() {
+            const first = wrapper.firstElementChild;
+            wrapper.appendChild(first);
+            updateClasses();
+        }
+
+        function prevCard() {
+            const last = wrapper.lastElementChild;
+            wrapper.insertBefore(last, wrapper.firstElementChild);
+            updateClasses();
+        }
+
+        // Initialize
+        updateClasses();
+    </script>
+    <!-- Flip Script End -->
+<!-- Potfolito Script End  -->
+<!-- How We Work Start -->
+<div class="container process-section">
+  <div class="process-title">How it Work</div>
+  <div class="process-heading">Standard Work Process</div>
+  <div class="row justify-content-center">
+
+    <div class="col-md-3 col-sm-6 mb-4 process-step">
+      <div class="step-icon">1</div>
+      <div class="step-title">Choose A Service</div>
+      <div class="step-desc">Select from our comprehensive range of IT services to meet your specific business needs.</div>
+      <div class="dashed-line"></div>
+    </div>
+
+    <div class="col-md-3 col-sm-6 mb-4 process-step">
+      <div class="step-icon">2</div>
+      <div class="step-title">Define Requirements</div>
+      <div class="step-desc">We ensure our solutions are aligned with your goals and business objectives.</div>
+      <div class="dashed-line"></div>
+    </div>
+
+    <div class="col-md-3 col-sm-6 mb-4 process-step">
+      <div class="step-icon">3</div>
+      <div class="step-title">Request A Meeting</div>
+      <div class="step-desc">Schedule a consultation to discuss your project requirements and objectives.</div>
+      <div class="dashed-line"></div>
+    </div>
+
+    <div class="col-md-3 col-sm-6 mb-4 process-step">
+      <div class="step-icon">4</div>
+      <div class="step-title">Final Solution</div>
+      <div class="step-desc">Our rigorous process ensures a final solution that exceeds client expectations.</div>
+    </div>
+
+  </div>
+</div>
+<!-- How we work end -->
+<!-- Contact Us Home Start  -->
+ <div class="container contact-section">
+  <div class="row align-items-center">
+    <!-- Left Side Images -->
+    <div class="col-md-6 contact-images">
+      <div class="row">
+        <div class="col-12">
+          <img src="images/home_page_contact_us.jpg" alt="Image 1">
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Side Form -->
+    <div class="col-md-6">
+      <h3 class="contact-heading">Contact <span>with US</span></h3>
+      <form method="POST">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Fill Your Name">
+        </div><br>
+            <!-- Phone with +91 prefix -->
+          <div class="mb-3">
+         <div class="input-group">
+        <span class="input-group-text bg-white border-end-0">+91</span>
+        <input type="tel" class="form-control border-start-0" placeholder="Enter your Phone no" name="phone">
+      </div>
+    </div>
+
+    <!-- Service dropdown -->
+    <div class="mb-3">
+      <select class="form-select" name="service">
+        <option value="">Choose Your Service</option>
+        <option value="web-development">Web Development</option>
+        <option value="app-development">App Development</option>
+        <option value="digital-marketing">Digital Marketing</option>
+        <option value="seo">SEO Services</option>
+      </select>
+    </div>
+        <button type="submit" class="submit-btn">Submit Now</button>
+      </form>
+    </div>
+  </div>
+</div>
+<!-- Contact Us Home End  -->
+<!-- Map  -->
+<div class="container-fluid">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.814346015077!2d77.42525007533453!3d28.605345875679642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ceffedab57a97%3A0xc2547c83859b2c05!2sgaur%20city%20mall!5e0!3m2!1sen!2sin!4v1753612413781!5m2!1sen!2sin"  height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="100%"></iframe>
+</div>
+
+<!-- Footer Start -->
+<footer class="text-white bg-primary py-5 footer">
+  <div class="container">
+    <div class="row text-md-start text-center">
+      <div class="col-md-4 mb-3">
+         <a href ="https://nectorflare.com/"><img src="images/logo.png" alt="Nector Flare Logo" height="25%" width="60%"></a>
+        <p>Nectorflare is a creative digital solutions company passionate about blending innovation with design. We help brands shine brighter through impactful web development, engaging user experiences, and smart digital strategies — turning ideas into reality with style and precision.</p>
+        <div class="social_media_icon">
+        <a href ="https://www.instagram.com/nectorflare/"><i class="fa-brands fa-instagram"></i></a>
+        <!-- <a href =""><i class="fa-brands fa-pinterest"></i></a> -->
+        <a href ="https://www.facebook.com/profile.php?id=61578447939214"><i class="fa-brands fa-facebook"></i></a>
+        <a href ="https://www.linkedin.com/in/nectorflare-private-limited-573701378"><i class="fa-brands fa-linkedin"></i></a>
+        <a href ="https://x.com/nectorflare"><i class="fa-solid fa-x"></i></a>
+        </div>
+      </div>
+      <div class="col-md-2 mb-3">
+        <h6>Quick Links</h6>
+        <ul class="list-unstyled">
+          <a href ="faq/"><li><i class="fa-solid fa-greater-than"></i> FAQ</li></a>
+          <a href ="about-us/"><li><i class="fa-solid fa-greater-than"></i> About Us</li></a>
+          <a href ="contact-us/"><li><i class="fa-solid fa-greater-than"></i> Contact Us</li></a>
+          <a href ="blog/"><li><i class="fa-solid fa-greater-than"></i> Blog</li></a>
+          <a href ="services/"><li><i class="fa-solid fa-greater-than"></i> Services</li></a>
+        </ul>
+      </div>
+      <div class="col-md-2 mb-3">
+        <h6>Services</h6>
+        <ul class="list-unstyled">
+          <a href ="web_development/"><li><i class="fa-solid fa-greater-than"></i> Web Development</li></a>
+          <a href ="app_development/"><li><i class="fa-solid fa-greater-than"></i> App Development</li></a>
+          <a href ="ui_ux_desigining/"><li><i class="fa-solid fa-greater-than"></i> UI/UX Desigining</li></a>
+          <a href ="digital_marketing/"><li><i class="fa-solid fa-greater-than"></i> Digital Marketing</li></a>
+          <a href ="software_development/"><li><i class="fa-solid fa-greater-than"></i> Software Development</li></a>
+          <a href ="eCommerce_development/"><li><i class="fa-solid fa-greater-than"></i> E-Commerce Devlopment</li></a>
+
+        </ul>
+      </div>
+      <div class="col-md-4 mb-3">
+        <h6>Information</h6>
+        <p><i class="fa-solid fa-phone"></i>  +91-9355006621</p>
+        <p><i class="fa-solid fa-envelope"></i>  info@nectorflare.com</p>
+        <p><i class="fa-solid fa-location-dot"></i>  Unit No 8125, 8th Floor Gaur City Mall Office Space, Sector4, Grater Noida West, U.P. 201318</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- Footer End  -->
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Counter Script Start -->
+<script>
+        const counters = document.querySelectorAll('.circle');
+
+        const runCounter = (el) => {
+            const target = +el.getAttribute('data-target');
+            const numberEl = el.querySelector('.number');
+            const progressCircle = el.querySelector('.progress');
+            const radius = progressCircle.r.baseVal.value;
+            const circumference = 2 * Math.PI * radius;
+            progressCircle.style.strokeDasharray = circumference;
+            progressCircle.style.strokeDashoffset = circumference;
+
+            let count = 0;
+            const duration = 2000;
+            const stepTime = Math.max(1, Math.floor(duration / target));
+
+            const updateCount = () => {
+                count++;
+                numberEl.textContent = count + '+';
+                const progress = (count / target) * circumference;
+                progressCircle.style.strokeDashoffset = circumference - progress;
+
+                if (count < target) {
+                    setTimeout(updateCount, stepTime);
+                }
+            };
+            updateCount();
+        };
+
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting && !entry.target.classList.contains('counted')) {
+                    runCounter(entry.target);
+                    entry.target.classList.add('counted');
+                }
+            });
+        }, { threshold: 0.5 });
+
+        counters.forEach(counter => observer.observe(counter));
+    </script>
+<!-- Counter Script End  -->
+
+</body>
+</html>
