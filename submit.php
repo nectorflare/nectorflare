@@ -1,6 +1,14 @@
 <?php
+<<<<<<< HEAD
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
+=======
+// ================= DB CONFIG =================
+$servername = "localhost";
+$username   = "root";
+$password   = "Dhee@321";
+$dbname     = "nectorflare_form";
+>>>>>>> 9193d20421d91c3612249300495b7358f30c18e2
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
@@ -39,9 +47,15 @@ try {
     $mail->isSMTP();
     $mail->Host       = 'smtpout.secureserver.net';
     $mail->SMTPAuth   = true;
+<<<<<<< HEAD
     $mail->Username   = 'info@nectorflare.com';  // GoDaddy email
     $mail->Password   = 'Dheer@321';   // Email password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
+=======
+    $mail->Username   = 'info@nectorflare.com'; 
+    $mail->Password   = 'Dheer@321'; 
+    $mail->SMTPSecure = 'ssl'; // SSL for port 465
+>>>>>>> 9193d20421d91c3612249300495b7358f30c18e2
     $mail->Port       = 465;
 
     // Admin Mail
