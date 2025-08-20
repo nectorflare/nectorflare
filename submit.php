@@ -1,98 +1,75 @@
 <?php
-// ================= DB CONFIG =================
-$servername = "localhost";
-$username   = "root";
-$password   = "";
-$dbname     = "nectorflare_form";
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 
-// Connect to database
-$conn = new mysqli($servername, $username, $password, $dbname);
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
-}
-
-// ================= GET FORM DATA =================
-$name    = $_POST['name'] ?? '';
-$phone   = $_POST['phone'] ?? '';
-$email   = $_POST['email'] ?? '';
-$service = $_POST['service'] ?? '';
-
-// Map service value to readable text
-$service_names = [
-    "ecommerce-development" => "E-Commerce Development",
-    "software-development"  => "Software Development",
-    "digital-marketing"     => "Digital Marketing",
-    "ui-ux-designing"       => "UI/UX Designing",
-    "app-development"       => "App Development",
-    "web-development"       => "Web Development"
-];
-$service_text = $service_names[$service] ?? $service;
-
-// Save to DB
-$sql = "INSERT INTO form_submissions (name, phone, email, service) VALUES (?, ?, ?, ?)";
-$stmt = $conn->prepare($sql);
-$stmt->bind_param("ssss", $name, $phone, $email, $service_text);
-$stmt->execute();
-$stmt->close();
-
-// ================= PHPMailer =================
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-// Manual include (no composer needed)
 require 'PHPMailer/src/Exception.php';
 require 'PHPMailer/src/PHPMailer.php';
 require 'PHPMailer/src/SMTP.php';
 
+// Database connection
+$servername = "localhost";
+$username   = "root";
+$password   = "Dhee@321";
+$dbname     = "nectorflare_form";
+
+$conn = new mysqli($servername, $username, $password, $dbname);
+if ($conn->connect_error) {
+    die("Database Connection failed: " . $conn->connect_error);
+}
+
+// Get form data
+$name    = $_POST['name'] ?? '';
+$phone   = $_POST['phone'] ?? '';
+$service = $_POST['service'] ?? '';
+
+// Save to database
+$stmt = $conn->prepare("INSERT INTO form_submissions (name, phone, service) VALUES (?, ?, ?)");
+$stmt->bind_param("sss", $name, $phone, $service);
+$stmt->execute();
+$stmt->close();
+$conn->close();
+
+// Send Email
 $mail = new PHPMailer(true);
 
 try {
-    // SMTP settings (GoDaddy)
     $mail->isSMTP();
-    $mail->Host       = 'smtpout.secureserver.net'; 
+    $mail->Host       = 'smtpout.secureserver.net';
     $mail->SMTPAuth   = true;
-    $mail->Username   = 'info@nectorflare.com'; 
-    $mail->Password   = 'your_email_password'; 
-    $mail->SMTPSecure = 'ssl'; // SSL for port 465
+    $mail->Username   = 'info@nectorflare.com';  // GoDaddy email
+    $mail->Password   = 'Dheer@321';   // Email password
+    $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
     $mail->Port       = 465;
 
-    // ---------- Mail to Admin ----------
-    $mail->setFrom('info@nectorflare.com', 'NectorFlare Website');
-    $mail->addAddress('nectorflare@gmail.com'); 
+    // Admin Mail
+    $mail->setFrom('info@nectorflare.com', 'NectorFlare');
+    $mail->addAddress('nectorflare@gmail.com');
     $mail->isHTML(true);
-    $mail->Subject = "New Form Submission - $service_text";
+    $mail->Subject = "New Lead from Website";
     $mail->Body    = "
-      <h2>New Form Submission</h2>
-      <table border='1' cellpadding='8' cellspacing='0'>
-        <tr><td><strong>Name</strong></td><td>$name</td></tr>
-        <tr><td><strong>Phone</strong></td><td>$phone</td></tr>
-        <tr><td><strong>Email</strong></td><td>$email</td></tr>
-        <tr><td><strong>Service</strong></td><td>$service_text</td></tr>
-      </table>
+        <h3>New Lead Details</h3>
+        <p><strong>Name:</strong> {$name}</p>
+        <p><strong>Phone:</strong> {$phone}</p>
+        <p><strong>Service:</strong> {$service}</p>
     ";
     $mail->send();
 
-    // ---------- Mail to Client ----------
+    // Client Thank You Mail
     $mail->clearAddresses();
-    $mail->addAddress($email); 
-    $mail->isHTML(true);
-    $mail->Subject = "Thanks for contacting NectorFlare";
-    $mail->Body    = "
-      <p>Hello <strong>$name</strong>,</p>
-      <p>Thank you for showing interest in our <strong>$service_text</strong> service.</p>
-      <p>Our team will contact you soon.</p>
-      <br>
-      <p>Best Regards,<br><strong>NectorFlare Team</strong></p>
-    ";
+    $mail->addAddress($phone."@example.com"); // <-- agar client ka email field h to use karo
+    $mail->Subject = "Thank you for contacting NectorFlare";
+    $mail->Body    = "Hi {$name},<br><br>Thank you for contacting us regarding {$service}. Our team will get back to you shortly.<br><br>Regards,<br>NectorFlare Team";
     $mail->send();
 
 } catch (Exception $e) {
-    echo "Mailer Error: {$mail->ErrorInfo}";
+    echo "❌ Mailer Error: {$mail->ErrorInfo}";
 }
 
-$conn->close();
-
-// Redirect after submit
-header("Location: index.php");
+// Redirect to homepage
+header("Location: index.php?status=success");
 exit;
 ?>
+
