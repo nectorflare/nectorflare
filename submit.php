@@ -2,7 +2,7 @@
 // ================= DB CONFIG =================
 $servername = "localhost";
 $username   = "root";
-$password   = "";
+$password   = "Dhee@321";
 $dbname     = "nectorflare_form";
 
 // Connect to database
@@ -52,7 +52,7 @@ try {
     $mail->Host       = 'smtpout.secureserver.net'; 
     $mail->SMTPAuth   = true;
     $mail->Username   = 'info@nectorflare.com'; 
-    $mail->Password   = 'your_email_password'; 
+    $mail->Password   = 'Dheer@321'; 
     $mail->SMTPSecure = 'ssl'; // SSL for port 465
     $mail->Port       = 465;
 
