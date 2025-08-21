@@ -363,7 +363,7 @@ h2 {
 /* Get a qoute End  */
 /* Testimonial Start  */
     .testimonial-section {
-      padding: 61px 0;
+      padding: -1px 0;
       background-color: #f8f9fa;
     }
 
