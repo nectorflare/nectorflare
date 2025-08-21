@@ -1,14 +1,9 @@
 <?php
-<<<<<<< HEAD
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
-=======
 // ================= DB CONFIG =================
 $servername = "localhost";
 $username   = "root";
 $password   = "Dhee@321";
 $dbname     = "nectorflare_form";
->>>>>>> 9193d20421d91c3612249300495b7358f30c18e2
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
