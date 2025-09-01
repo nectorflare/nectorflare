@@ -428,42 +428,59 @@
     <!-- Right Side Form -->
     <div class="col-md-6">
       <h3 class="contact-heading">Contact <span>with US</span></h3>
-        <form method="POST" action="submit.php">
-  <!-- Name Field -->
-  <div class="form-group">
-    <input type="text" class="form-control" name="name" placeholder="Enter Your Name" required>
-  </div><br>
+        <form method="POST" action="submit.php">  
+            <!-- Name Field -->
+            <div class="form-group">
+              <input type="text" class="form-control" name="name" placeholder="Enter Your Name" required>
+            </div><br>
 
-  <!-- Phone with +91 prefix -->
-  <div class="mb-3">
-    <div class="input-group">
-      <span class="input-group-text bg-white border-end-0">+91</span>
-      <input type="tel" class="form-control border-start-0" name="phone" 
-             placeholder="Enter your Phone No" pattern="[6-9]{1}[0-9]{9}" required>
-    </div>
-  </div>
+            <!-- Phone with +91 prefix -->
+            <div class="mb-3">
+              <div class="input-group">
+                <span class="input-group-text bg-white border-end-0">+91</span>
+                <input type="tel" class="form-control border-start-0" name="phone" 
+                      placeholder="Enter your Phone No" pattern="[6-9]{1}[0-9]{9}" required>
+              </div>
+            </div>
 
-  <!-- Email Field -->
-  <div class="mb-3">
-    <input type="email" class="form-control" name="email" placeholder="Enter Your Email" required>
-  </div>
+            <!-- Email Field -->
+            <div class="mb-3">
+              <input type="email" class="form-control" name="email" placeholder="Enter Your Email" required>
+            </div>
 
-  <!-- Service dropdown -->
-  <div class="mb-3">
-    <select class="form-select" name="service" required>
-      <option value="">Choose Your Service</option>
-      <option value="ecommerce-development">E-Commerce Development</option>
-      <option value="software-development">Software Development</option>
-      <option value="digital-marketing">Digital Marketing</option>
-      <option value="ui-ux-designing">UI/UX Designing</option>
-      <option value="app-development">App Development</option>
-      <option value="web-development">Web Development</option>
-    </select>
-  </div>
+            <!-- Service dropdown -->
+            <div class="mb-3">
+              <select class="form-select" name="service" required>
+                <option value="">Choose Your Service</option>
+                <option value="ecommerce-development">E-Commerce Development</option>
+                <option value="software-development">Software Development</option>
+                <option value="digital-marketing">Digital Marketing</option>
+                <option value="ui-ux-designing">UI/UX Designing</option>
+                <option value="app-development">App Development</option>
+                <option value="web-development">Web Development</option>
+              </select>
+            </div>
 
-  <!-- Submit button -->
-  <button type="submit" class="submit-btn btn btn-primary">Submit Now</button>
-</form>
+            <!-- Submit button -->
+            <button type="submit" class="submit-btn btn btn-primary">Submit Now</button>
+          </form>
+
+
+                    <!-- Google reCAPTCHA v3 -->
+          <script src="https://www.google.com/recaptcha/api.js?render=6LcjmborAAAAAEx0nrEI1a0A9qXeovOZ3Hsavt9C"></script>
+          <script>
+          grecaptcha.ready(function() {
+              grecaptcha.execute('6LcjmborAAAAAEx0nrEI1a0A9qXeovOZ3Hsavt9C', {action: 'submit'}).then(function(token) {
+                  // Hidden field create karke token add karo
+                  var recaptchaResponse = document.createElement('input');
+                  recaptchaResponse.setAttribute('type', 'hidden');
+                  recaptchaResponse.setAttribute('name', 'g-recaptcha-response');
+                  recaptchaResponse.setAttribute('value', token);
+                  document.getElementById('myForm').appendChild(recaptchaResponse);
+              });
+          });
+          </script>
+
 
     </div>
   </div>
