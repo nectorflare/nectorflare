@@ -569,3 +569,25 @@
 
 </body>
 </html>
+<?php
+$ip = $_SERVER['REMOTE_ADDR'];
+$file = sys_get_temp_dir() . "/rate_" . md5($ip);
+$limit = 20; // 20 requests
+$time = 60;  // per 60 sec
+
+if(file_exists($file)) {
+    $data = json_decode(file_get_contents($file), true);
+    if($data['time'] > time() - $time) {
+        if($data['count'] > $limit) {
+            http_response_code(429);
+            die("Too many requests");
+        } else {
+            $data['count']++;
+        }
+    } else {
+        $data = ['count'=>1, 'time'=>time()];
+    }
+} else {
+    $data = ['count'=>1, 'time'=>time()];
+}
+file_put_contents($file, json_encode($data));
