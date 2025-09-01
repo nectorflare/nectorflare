@@ -1,0 +1,19 @@
+# robots.txt for IT Company Website
+# Allow search engines to crawl the main website content
+User-agent: *
+Allow: /
+
+# Disallow admin and sensitive areas
+Disallow: /admin/
+Disallow: /login/
+Disallow: /register/
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /tmp/
+Disallow: /cgi-bin/
+
+# Block internal search results (not useful for SEO)
+Disallow: /search
+
+# Sitemap for better crawling
+#Sitemap: https://www.yourwebsite.com/sitemap.xml
