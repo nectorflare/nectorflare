@@ -513,9 +513,9 @@
       </div>
       <div class="col-md-4 mb-3">
         <h6>Information</h6>
-        <p><i class="fa-solid fa-phone"></i>  +91-9355006621</p>
-        <p><i class="fa-solid fa-envelope"></i>  info@nectorflare.com</p>
-        <p><i class="fa-solid fa-location-dot"></i>  Unit No 8125, 8th Floor Gaur City Mall Office Space, Sector4, Grater Noida West, U.P. 201318</p>
+        <p><i class="fa-solid fa-phone"></i><a href="tel:+91 93551 91817"> +91-9355006621</a></p>
+        <p><i class="fa-solid fa-envelope"></i><a href="mailto:info@nectorflare.com"> info@nectorflare.com </a></p>
+        <p><i class="fa-solid fa-location-dot"></i>  <a href="https://www.google.com/maps/search/?api=1&query=Unit+No+8125,+8th+Floor+Gaur+City+Mall+Office+Space,+Sector4,+Greater+Noida+West,+U.P.+201318" target="_blank"> Unit No 8125, 8th Floor Gaur City Mall Office Space, Sector4, Grater Noida West, U.P. 201318 </a></p>
       </div>
     </div>
   </div>
