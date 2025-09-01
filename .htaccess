@@ -1,0 +1,35 @@
+# Enable Rewrite Engine
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+# Block known bad bots by User-Agent
+RewriteCond %{HTTP_USER_AGENT} (AhrefsBot|SemrushBot|MJ12bot|DotBot|spider|crawler|scraper|python-requests|curl|wget) [NC]
+RewriteRule .* - [F,L]
+
+# Block empty user agents (most spam bots)
+RewriteCond %{HTTP_USER_AGENT} ^-?$
+RewriteRule .* - [F,L]
+
+# Block too many requests from same IP (basic rate limit)
+<IfModule mod_ratelimit.c>
+  SetOutputFilter RATE_LIMIT
+  SetEnv rate-limit 400
+</IfModule>
+
+# Deny access to wp-login.php or xmlrpc.php (if WordPress parts exist)
+<Files "xmlrpc.php">
+Order Allow,Deny
+Deny from all
+</Files>
+
+# Protect sensitive folders
+RedirectMatch 403 ^/(vendor|cgi-bin|tmp|logs|backups|admin)/
+
+# Block hotlinking (others using your images/files)
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^https?://(www\.)?yourdomain\.com [NC]
+RewriteRule \.(jpg|jpeg|png|gif|webp)$ - [F]
+
+# Custom error for blocked bots
+ErrorDocument 403 "Access Denied"
+</IfModule>
