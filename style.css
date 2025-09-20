@@ -590,3 +590,8 @@ footer.text-white.bg-primary.py-5.blog_footer ul li a::hover {
     text-decoration: none !important;
     color: white !important;
 }
+
+
+.rc-anchor.rc-anchor-invisible.rc-anchor-light.rc-anchor-invisible-hover {
+    display: none !important;
+}
