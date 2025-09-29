@@ -18,8 +18,8 @@
 	right: 1rem;
 	bottom: 8rem;
 	background: #ffc107;
-	width: 4rem;
-	height: 4rem;
+	width: 60px;
+  height: 60px;
 	padding: 1rem;
 	border-radius: 100%;
 	-webkit-box-sizing: border-box;
@@ -73,7 +73,7 @@
 	width:60px;
 	height:60px;
 	bottom:40px;
-	right:40px;
+	right:18px
 	background-color:#25d366;
 	color:#FFF;
 	border-radius:50px;
