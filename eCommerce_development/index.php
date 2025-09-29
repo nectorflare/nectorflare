@@ -18,7 +18,7 @@
   gtag('config', 'G-W792LMSDWP');
 </script>
 <body>
-
+<?php include 'call_button/index.php';?>
 <!-- Header Start -->
 <nav class="navbar navbar-expand-lg bg-white shadow-sm py-2 fixed-top">
   <div class="container d-flex align-items-center justify-content-between">

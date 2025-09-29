@@ -46,7 +46,7 @@
   Your browser does not support the video tag.
 </video>
 <!-- Home Page Banner video end   -->
-
+<?php include 'call_button/index.php';?>
 <!-- Home Page Card start -->
 <div class="container-fluid cards-section">
   <div class="row g-4">
