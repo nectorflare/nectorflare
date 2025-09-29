@@ -598,6 +598,6 @@ footer.text-white.bg-primary.py-5.blog_footer ul li a::hover {
 
 
 .grecaptcha-badge { 
-    visibility: hidden; 
+    visibility: hidden !important; 
     display: none !important;
 }
