@@ -595,3 +595,9 @@ footer.text-white.bg-primary.py-5.blog_footer ul li a::hover {
 .rc-anchor.rc-anchor-invisible.rc-anchor-light.rc-anchor-invisible-hover-hovered {
     display: none !important;
 }
+
+
+.grecaptcha-badge { 
+    visibility: hidden; 
+    display: none !important;
+}
