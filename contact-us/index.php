@@ -68,7 +68,7 @@
           <i class="fas fa-phone"></i>
           <h5 class="mt-3">Call Us</h5>
           <p>Call us today for quick support, guidance, and friendly service.</p>
-          <a href="tel:+91 93551 91817">+91-93551 91817</a><br>
+          <a href="tel:+91 9355006621">+91-9355006621</a><br>
         </div>
       </div>
       <div class="col-md-4">
