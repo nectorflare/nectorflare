@@ -169,50 +169,51 @@
     <!-- Flip Slider End -->
 <!-- Counter Start -->
 <section class="counter-wrap">
-        <div class="circle" data-target="232">
-            <svg>
-                <circle class="bg" cx="70" cy="70" r="50" />
-                <circle class="progress" cx="70" cy="70" r="50" />
-            </svg>
-            <div class="content">
-                <div class="number">0+</div>
-                Clients
-            </div>
+    <div class="circle" data-target="80">
+        <svg>
+            <circle class="bg" cx="70" cy="70" r="50" />
+            <circle class="progress" cx="70" cy="70" r="50" />
+        </svg>
+        <div class="content">
+            <div class="number">80+</div>
+            Clients
         </div>
+    </div>
 
-        <div class="circle" data-target="21">
-            <svg>
-                <circle class="bg" cx="70" cy="70" r="50" />
-                <circle class="progress" cx="70" cy="70" r="50" />
-            </svg>
-            <div class="content">
-                <div class="number">0+</div>
-                Projects
-            </div>
+    <div class="circle" data-target="50">
+        <svg>
+            <circle class="bg" cx="70" cy="70" r="50" />
+            <circle class="progress" cx="70" cy="70" r="50" />
+        </svg>
+        <div class="content">
+            <div class="number">50+</div>
+            Projects
         </div>
+    </div>
 
-        <div class="circle" data-target="1453">
-            <svg>
-                <circle class="bg" cx="70" cy="70" r="50" />
-                <circle class="progress" cx="70" cy="70" r="50" />
-            </svg>
-            <div class="content">
-                <div class="number">0+</div>
-                Hours
-            </div>
+    <div class="circle" data-target="1453">
+        <svg>
+            <circle class="bg" cx="70" cy="70" r="50" />
+            <circle class="progress" cx="70" cy="70" r="50" />
+        </svg>
+        <div class="content">
+            <div class="number">1453+</div>
+            Hours
         </div>
+    </div>
 
-        <div class="circle" data-target="35">
-            <svg>
-                <circle class="bg" cx="70" cy="70" r="50" />
-                <circle class="progress" cx="70" cy="70" r="50" />
-            </svg>
-            <div class="content">
-                <div class="number">0+</div>
-                Workers
-            </div>
+    <div class="circle" data-target="15">
+        <svg>
+            <circle class="bg" cx="70" cy="70" r="50" />
+            <circle class="progress" cx="70" cy="70" r="50" />
+        </svg>
+        <div class="content">
+            <div class="number">15+</div>
+            Workers
         </div>
-    </section>
+    </div>
+</section>
+
 <!-- Counter End -->
 <!-- Portfoliyo Start -->
 <div class="container py-5">
@@ -223,29 +224,65 @@
     <div class="d-flex justify-content-center gap-3">
       <button class="filter-btn active" data-filter="all">All</button>
       <button class="filter-btn" data-filter="website">Website</button>
-      <button class="filter-btn" data-filter="mobile">Mobile App</button>
-      <button class="filter-btn" data-filter="work">Work</button>
+      <button class="filter-btn" data-filter="ui">UI & UX </button>
+      <button class="filter-btn" data-filter="digital">Digital Marketing</button>
     </div>
   </div>
 
   <div class="row g-4">
     <div class="col-md-4 portfolio-item website show">
-      <img src="your-image1.jpg" alt="Website" class="portfolio-img">
-    </div>
-    <div class="col-md-4 portfolio-item mobile show">
-      <img src="your-image2.jpg" alt="Mobile" class="portfolio-img">
-    </div>
-    <div class="col-md-4 portfolio-item work show">
-      <img src="your-image3.jpg" alt="Work" class="portfolio-img">
+        <a href="https://www.bharatkaswaad.com/index.php/" target="_blank">
+            <div class="screenshot-box">
+          <img src="portfolio/images/website/bharatkaswaad.png" alt="Nectorflare Website">
+          <div class="overlay"><p>Bharat Ka Swaad<br><span style="font-weight: 500; font-size: 20px;">Web Development</span> </p></div>
+        </div>
+      </a>
     </div>
     <div class="col-md-4 portfolio-item website show">
-      <img src="your-image4.jpg" alt="Website" class="portfolio-img">
+        <a href="https://www.perfitalia.com/" target="_blank">
+            <div class="screenshot-box">
+          <img src="portfolio/images/website/perfitalia.png" alt="Nectorflare Website">
+          <div class="overlay"><p> Perfitalia <br><span style="font-weight: 500; font-size: 20px;">Web Development</span> </p></div>
+        </div>
+      </a>
+    </div>    
+    <div class="col-md-4 portfolio-item website show">
+        <a href="https://www.kvnschool.in/" target="_blank">
+            <div class="screenshot-box">
+          <img src="portfolio/images/website/kvnschool.png" alt="Nectorflare Website">
+          <div class="overlay"><p> Krishna Vidya Niketan <br><span style="font-weight: 500; font-size: 20px;">Web Development</span> </p></div>
+        </div>
+      </a>
     </div>
-    <div class="col-md-4 portfolio-item mobile show">
-      <img src="your-image5.jpg" alt="Mobile App" class="portfolio-img">
+    <div class="col-md-4 portfolio-item digital show">
+      <a href="https://www.instagram.com/reel/DOnHDqEEoq0/?igsh=OHNseTVoODUwYWt1" target="_blank">
+        <div class="screenshot-box">
+            <video loop width="100%">
+              <source src="portfolio/images/smo/instragram.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          <div class="overlay"><p>New Kuber Hospital Kanpur<br><span style="font-weight: 500; font-size: 20px;">Social Media Optimization</span> </p></div>
+        </div>
+      </a>
     </div>
-    <div class="col-md-4 portfolio-item work show">
-      <img src="your-image6.jpg" alt="Work" class="portfolio-img">
+    <div class="col-md-4 portfolio-item ui show">
+        <a href="#" target="_blank">
+            <div class="screenshot-box">
+          <img src="portfolio/images/uiux/Deskto.jpg" alt="Nectorflare Website">
+          <div class="overlay"><p> Water Packaging <br><span style="font-weight: 500; font-size: 20px;">UI & UX </span> </p></div>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-4 portfolio-item digital show">
+      <a href="https://www.instagram.com/reel/DOnHDqEEoq0/?igsh=OHNseTVoODUwYWt1" target="_blank">
+        <div class="screenshot-box">
+            <video loop width="100%">
+              <source src="portfolio/images/smo/Instragram Post 2.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          <div class="overlay"><p>New Kuber Hospital Kanpur<br><span style="font-weight: 500; font-size: 20px;">Social Media Optimization</span> </p></div>
+        </div>
+      </a>
     </div>
   </div>
 </div>
@@ -256,7 +293,7 @@
     
     <div class="d-flex align-items-center">
       <div class="cta-icon">
-        <i class="fa-solid fa-phone"></i>
+        <a href="tel:+91 9355006621"><i class="fa-solid fa-phone"></i></a>
       </div>
       <div>
         <small>Call Us Now</small><br>
